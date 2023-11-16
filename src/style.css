@@ -509,7 +509,7 @@ animation: flickerAnimation 0.5s;
   @media screen and (max-width:700px) {
 	.index-container{
 	
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 	}
 
 	.titles-container{
@@ -525,16 +525,40 @@ animation: flickerAnimation 0.5s;
 @media screen and (max-width:500px) {
 	.index-container{
 	
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 	}
 
 	.titles-container{
 	
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 
 	.link_logo{
 		width:36px;	
+	}
+
+	.main{
+		padding:10px 5px;
+	}
+}
+
+@media screen and (max-width:351px) {
+	.index-container{
+	
+		font-size: 1rem;
+	}
+
+	.titles-container{
+	
+		font-size: 0.7rem;
+	}
+
+	.link_logo{
+		width:36px;	
+	}
+
+	.main{
+		padding:10px 5px;
 	}
 }
 
